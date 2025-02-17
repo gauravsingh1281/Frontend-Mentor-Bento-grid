@@ -8,27 +8,67 @@
   <title>Frontend Mentor | Bento grid</title>
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-
-  Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
-
-  Manage multiple accounts and platforms.
-
-  Maintain a consistent posting schedule.
-
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
-
-  Grow followers with non-stop content.
-
-  >56% faster audience growth
-
-  Create and schedule content quicker.
-
-  Write your content using AI.
+  <main class="w-full h-full  grid grid-cols-1 lg:grid-cols-4 auto-rows p-8 gap-8 ">
+    <!-- container 1 -->
+    <div class="box-container flex justify-center items-center rounded-md flex-col bg-[var(--Yellow-100)] shadow-xl">
+      <h1 class="text-3xl py-8 px-12 font-bold">Create and schedule content <span
+          class="text-[var(--Purple-500)]">quicker.</span>
+      </h1>
+      <img src="./assets/images/illustration-create-post.webp" class="w-[200px]" alt="Create-post-icon">
+    </div>
+    <!-- container 2-->
+    <div
+      class="box-container lg:col-span-2 rounded-md flex flex-col justify-center items-center p-8 gap-4 bg-[var(--Purple-500)] shadow-xl">
+      <h1 class="text-6xl text-center text-[var(--White)]">Social Media <span
+          class="text-[var(--Yellow-500)]">10x</span> <span class="italic">Faster</span> with AI</h1>
+      <img src="./assets/images/illustration-five-stars.webp" class="w-[150px]" alt="star-icon">
+      <p class="text-[var(--White)]">Over 4,000 5-star reviews</p>
+    </div>
+    <!-- container 3-->
+    <div
+      class="box-container flex justify-center items-start gap-10 flex-col p-8 bg-[var(--Purple-100)] lg:row-span-2 rounded-md shadow-xl">
+      <h1 class="text-4xl font-bold">Schedule to social media.</h1>
+      <img src="./assets/images/illustration-schedule-posts.webp" alt="illustration-schedule-posts">
+      <p class="font-bold">Optimize post timings to publish content at the perfect time for your audience.
+      </p>
+    </div>
+    <!-- container 4-->
+    <div
+      class="box-container flex justify-center items-start gap-10 flex-col p-8 bg-[var(--Yellow-500)] rounded-md lg:row-span-2 shadow-xl">
+      <h1 class="text-3xl font-bold w-[75%]">Write your content using AI.</h1>
+      <img src="./assets/images/illustration-ai-content.webp" alt="illustration-ai-content">
+    </div>
+    <!-- container 5-->
+    <div
+      class="box-container rounded-md flex justify-start items-center gap-8 p-8 flex-col bg-[var(--White)] shadow-xl">
+      <img src="./assets/images/illustration-multiple-platforms.webp" alt="illustration-multiple-platforms">
+      <h1 class="text-3xl font-bold">Manage multiple accounts and platforms.</h1>
+    </div>
+    <!-- container 6-->
+    <div
+      class="box-container bg-[var(--Yellow-500)] flex items-start flex-col p-8 relative overflow-hidden rounded-md shadow-xl gap-10">
+      <h1 class="text-3xl font-bold">Maintain a consistent posting schedule.</h1>
+      <img class="lg:absolute lg:-bottom-16 w-[200px]" src="./assets/images/illustration-consistent-schedule.webp"
+        alt="illustration-consistent-schedule">
+    </div>
+    <!-- container 7-->
+    <div
+      class="box-container flex justify-center items-start gap-4 flex-col p-8 bg-[var(--White)] rounded-md shadow-xl">
+      <h1 class="text-5xl font-bold">>56% </h1>
+      <p class="font-semibold">faster audience growth</p>
+      <img class="w-[200px]" src="./assets/images/illustration-audience-growth.webp" alt="illustration-audience-growth">
+    </div>
+    <!-- container 8-->
+    <div
+      class="box-container rounded-md flex justify-between items-center gap-4 flex-col  lg:col-span-2 lg:flex-row p-8 bg-[var(--Purple-500)] shadow-xl">
+      <img class="w-[250px]" src="./assets/images/illustration-grow-followers.webp" alt="illustration-grow-followers">
+      <h1 class="text-3xl font-bold text-[var(--White)] ">Grow followers with non-stop content.</h1>
+    </div>
+  </main>
 
 </body>
 
